@@ -40,7 +40,14 @@ export default {
     })
     this.player = this.cld.videoPlayer(
       'video-player', {
-        controls: true
+        controls: true,
+        analytics: {
+          events: [
+            'play',
+            'pause',
+            'ended'
+          ]
+        }
       }
     );
     this.player.source(this.video);

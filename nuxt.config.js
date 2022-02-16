@@ -16,6 +16,7 @@ export default {
       { rel:  'stylesheet', href:  'https://unpkg.com/cloudinary-video-player@1.5.9/dist/cld-video-player.min.css'  }
     ],
     script:  [
+      
       { src:  'https://unpkg.com/cloudinary-core@latest/cloudinary-core-shrinkwrap.min.js'  },
       { src:  'https://unpkg.com/cloudinary-video-player@1.5.9/dist/cld-video-player.min.js'  },
     ],
@@ -34,7 +35,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/google-analytics'
+    
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -44,8 +45,5 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-  googleAnalytics: {
-    // Options
-    id: 'G-NL036HZPGP'
-  },
+
 }
