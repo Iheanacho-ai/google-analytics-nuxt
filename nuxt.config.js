@@ -17,8 +17,8 @@ export default {
     ],
     script:  [
       
-      { src:  'https://unpkg.com/cloudinary-core@latest/cloudinary-core-shrinkwrap.min.js'  },
-      { src:  'https://unpkg.com/cloudinary-video-player@1.5.9/dist/cld-video-player.min.js'  },
+      // { src:  'https://unpkg.com/cloudinary-core@latest/cloudinary-core-shrinkwrap.min.js'  },
+      // { src:  'https://unpkg.com/cloudinary-video-player@1.5.9/dist/cld-video-player.min.js'  },
     ],
   },
 
