@@ -40,8 +40,7 @@ export default {
     })
     this.player = this.cld.videoPlayer(
       'video-player', {
-        controls: true,
-        analytics: true
+        controls: true
       }
     );
     this.player.source(this.video);
